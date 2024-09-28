@@ -1,0 +1,290 @@
+.container {
+    padding: 2rem;
+}
+
+a.index{
+    color: #4e4e4e;
+}
+
+a.index:hover{
+    color: #ecad24
+}
+ 
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #c2185b; 
+    margin-bottom: 10px;
+    
+}
+
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ec407a; 
+    margin-bottom: 15px;
+}
+
+h4 {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #7b1fa2;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #505050;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.full-width-image {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #c2185b; 
+    margin-bottom: 10px;
+}
+
+.cv-button{
+    background-color: #ecad24; 
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.background-draw{
+    background-image: url('midia/gabriella_tavares_pedroso.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 90vh;
+    display: flex; 
+    justify-content: center; 
+    align-items:center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)
+}
+
+
+
+.content-box {
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%; 
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.social-links a {
+    color: #ecad24; 
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ad1457; 
+}
+
+
+
+.nav-link{
+    color: #ad1457
+}
+
+.nav-link:hover {
+    color: #ecad24
+}
+
+
+
+
+.index-list {
+    list-style: none; 
+    padding: 0; 
+}
+
+.index-list li {
+    display: flex; 
+    align-items: center; 
+    margin: 15px 0; 
+}
+
+.index-list li::before {
+    content: counter(item); 
+    counter-increment: item; 
+    background-color: #ffe4ab;
+    color: #333; 
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 10px; 
+}
+
+.index-list {
+    counter-reset: item; 
+}
+
+
+
+
+
+
+.img-fluid {
+    border-radius: 8px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn-outline-secondary {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.collapse {
+    background-color: #f8f9fa; 
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.feminine-divider {
+    width: 100%; 
+    height: 30px; 
+    background-color: #f06292; 
+    margin: 20px 0; 
+    border-radius: 10px; 
+}
+
+
+
+.feminine-section {
+    
+    padding: 40px;
+    border-radius: 15px;
+}
+
+
+
+.feminine-languages {
+    list-style: none;
+    padding: 0;
+}
+
+.feminine-language-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #7b1fa2;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.feminine-button {
+    background-color: #f06292; /* Rosa médio */
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.feminine-button:hover {
+    background-color: #ad1457; /* Rosa mais escuro */
+}
+
+.feminine-outline-button {
+    border: 2px solid #f06292;
+    background-color: transparent;
+    color: #f06292;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.feminine-outline-button:hover {
+    background-color: #f06292;
+    color: white;
+}
+
+.feminine-gallery {
+    justify-content: space-between;
+}
+
+.feminine-img {
+    max-width: 23%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feminine-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+a{
+    color: #4e4e4e;
+}
+
+a:hover{
+    color: #ecad24
+}
+    
+
+.full-width-image {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+
