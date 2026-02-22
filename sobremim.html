@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Carla Ferraz de Araujo - Sobre Mim</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>About Me | Carla Araujo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="sobremim.css">
     <script src="scripts.js" defer></script>
-    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
 
-
-    <header class="background-draw">
+    <header class="background-draw py-4">
         <div class="container text-center content-box">
             <div class="profile-data">
                 <div class="profile-pic mb-3">
-                    <img src="midia/carla.png" alt="Carla Araujo" class="rounded-circle" width="130">
+                    <img src="midia/carla.png" alt="Carla Araujo" class="rounded-circle shadow" width="130">
                 </div>
                 <h2 class="name">Carla Ferraz de Araujo</h2>
                 <div class="social-links mb-3">
@@ -44,224 +40,99 @@
     <main class="container my-5">
         <section class="filters mb-5">
             <ul class="nav nav-tabs justify-content-center">
-                <li class="nav-item">
-                    <a href="index.html#projects"><button class="nav-link" id="projects">Projetos</button></a>
-                    
-                </li>
-                <li class="nav-item">
-                    <a href="design.html#design"><button class="nav-link" id="design">Design</button></a>
-                    
-                </li>
-                <li class="nav-item">
-                    <a href="sobremim.html#about-me"><button class="nav-link  active" id="about-me">Sobre Mim</button></a>
-                    
-                </li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="design.html" class="nav-link">Design</a></li>
+                <li class="nav-item"><a href="sobremim.html" class="nav-link active">About Me</a></li>
             </ul>
         </section>
 
-
-
-
-                <!--============================SOBRE MIM==============================================-->
-        <section id="sobre-mim" class="container my-5">
-
-
-            <div class="row mb-4" style="align-items: center; ">
-                <div class="col-md-6 text-center">
-                    <h2 class="feminine-title">About Me</h2>
-                    <p class="lead feminine-text">
-                        Hi there! I'm Carla! An Information Systems student at PUCPR, passionate about design, technology, kittens, and questionable horror movies.
-                    </p>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="midia/eu.jpg" alt="Foto de Carla"width="400" class="img-fluid">
-                </div>
-               
+        <section id="about-intro" class="row mb-5 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h2 class="feminine-title">About Me</h2>
+                <p class="lead feminine-text">
+                    Hi there! I'm Carla! An Information Systems student at PUCPR, passionate about design, technology, kittens, and questionable horror movies.
+                </p>
             </div>
-<hr>
+            <div class="col-md-6 text-center">
+                <img src="midia/eu.jpg" alt="Carla Araujo" class="img-fluid rounded shadow" style="max-width: 350px;">
+            </div>
+        </section>
 
+        <hr class="feminine-divider-light">
 
-            
-            <section id="timeline" class="my-5 py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 class="text-center mb-4">Academic Path</h3>
-                        </div>
-                    </div>
+        <section id="timeline" class="container my-5 py-5">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="text-center mb-5 feminine-title">Academic & Professional Path</h3>
+        </div>
+    </div>
 
-                    <div class="row">
-
-                        <!-- Ano 2026 -->
-                        <div class="col-6 mb-4 d-flex">
-                            <div class="p-4 border rounded shadow-sm flex-fill">
-                                
-                                <h3 class="text-center mb-3">2026</h3>
-                                <ul class="timeline-list">
-                                    <li>
-                                        <strong>Swift Student Challenge</strong>
-                                        <p class="feminine-text">Participated in Apple's prestigious global challenge, developing an innovative app playground that showcases technical proficiency in Swift and creative problem-solving.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Academic Center: Director of Communication</strong>
-                                        <p class="feminine-text">Appointed as Director of Communication, leading social media strategies, visual identity, and official student body announcements.</p>
-                                    </li>
-
-                                </ul>
-
-                                <div class="text-center">
-                                    <video src="midia/sobremim/shaide.MOV" controls muted loop playsinline class="project-video-ios" style="max-height: 30vh; width: 100%; border-radius: 15px;"></video>
-                           
-                                </div>
-                            </div>
-                        </div>
-
-                                                <!-- Ano 2025 -->
-                        <div class="col-6 mb-4 d-flex">
-                            <div class="p-4 border rounded shadow-sm flex-fill">
-                                
-                                <h3 class="text-center mb-3">2025</h3>
-                                <ul class="timeline-list">
-                                    <li>
-                                        <strong>Apple Developer Academy</strong>
-                                        <p class="feminine-text">Selected for the Apple Developer Academy, deepening my iOS development skills with a focus on User Experience, Human-Centered Design, and social impact.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Dean's List Recognition</strong>
-                                        <p class="feminine-text">Honored with a place on the Dean's List, recognizing outstanding academic performance and commitment to excellence throughout the year.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Advanced Spanish Completion</strong>
-                                        <p class="feminine-text">Successfully completed Advanced Spanish studies, achieving high-level fluency for professional and creative communication.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Academic Center: Assistant Coordinator</strong>
-                                        <p class="feminine-text">Served as Assistant Coordinator for the Academic Center, organizing events and fostering engagement within the student community.</p>
-                                    </li>
-                                </ul>
-
-                                <div class="text-center">
-                                    <img src="midia/sobremim/academy2025.jpg" alt="Academy 2025" class="img-fluid mb-3 rounded" style="height: 150px; object-fit: cover;">
-                                    <img src="midia/sobremim/deanslist.jpg" alt="Academy 2025" class="img-fluid mb-3 rounded" style="height: 150px; object-fit: cover;">
-                                </div>
-                            </div>
-                        </div>
-
-                                            <div class="row">
-
-
-                        <!-- Ano 2024 -->
-                        <div class="col-6 mb-4 d-flex">
-                            <div class="p-4 border rounded shadow-sm flex-fill">
-                                
-                                <h3 class="text-center mb-3">2024</h3>
-                                <ul class="timeline-list">
-                                    <li>
-                                        <strong>Information Systems at PUCPR</strong>
-                                        <p class="feminine-text">The beginning of my formal journey in IT. Transitioning from an enthusiast to a Bachelor's student, merging my passion for design with technical engineering.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Design & Animation Projects</strong>
-                                        <p class="feminine-text">Created custom animations using PyGame and developed motion graphics for short films, focusing on visual storytelling.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Game Development</strong>
-                                        <p class="feminine-text">Developed interactive games in Python/PyGame, implementing character animation logic and complex collision detection systems.</p>
-                                    </li>
-                                    <li>
-                                        <strong>Python Automation Projects</strong>
-                                        <p class="feminine-text">Advanced my Python skills by building real-world solutions, including automated email systems with Outlook integration and dynamic PDF quote generators.</p>
-                                    </li>
-                                </ul>
-                                <div class="text-center">
-                                    <img src="midia/sobremim/2024.png" alt="Descrição da imagem 2024" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                    <img src="midia/btksolutions/preview.png" alt="Descrição da imagem 2024" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                </div>
-                               
-                            </div>
-                        </div>
-
-                                                <!-- Ano 2023 -->
-                        <div class="col-6 mb-4 d-flex">
-                            <div class="p-4 border rounded shadow-sm flex-fill">
-                                
-                                <h3 class="text-center mb-3">2023</h3>
-                                <ul class="timeline-list">
-                                    <li>
-                                        <strong>Architectural Projects</strong>
-                                        <p class="feminine-text">Developed architectural and interior design projects focused on functional and sustainable design. Each project was tailored to client needs, utilizing smart space management and a selection of durable, aesthetically pleasing materials. Natural lighting and ventilation were integrated to ensure comfort and energy efficiency.</p>
-                                    </li>
-                                    <li>
-                                        <strong>A Verdadeira Chinesa Restaurant</strong>
-                                        <p class="feminine-text">Designed and executed the interior project for "A Verdadeira Chinesa" restaurant, creating a fusion between tradition and modernity. The design balances authentic colors and textures, while the layout optimizes circulation and customer comfort to provide a welcoming dining experience.</p>
-                                    </li>
-                                </ul>
-                               <br>
-                                <div class="text-center">
-                                    <img src="midia/sobremim/2023.png" alt="Descrição da imagem 2023" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                    <img src="midia/eu.jpg" alt="Descrição da imagem 2023" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                </div>
-                                
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-                        <!-- Ano 2022 -->
-                        <div class="col-6 mb-4 d-flex">
-                            <div class="p-4 border rounded shadow-sm flex-fill">
-                                
-                                <h3 class="text-center mb-3">2022</h3>
-                                <ul class="timeline-list">
-                                    <li>
-                                        <strong>Architecture & Urbanism at UTFPR</strong>
-                                        <p class="feminine-text">Began my academic journey in Architecture and Urbanism at the Federal University of Technology - Paraná (UTFPR).</p>
-                                    </li>
-                                    <li>
-                                        <strong>Model Office of Architecture and Urbanism (UTFPR)</strong>
-                                        <p class="feminine-text">Served as a volunteer at UTFPR's Model Office, participating in social assistance projects in partnership with the local government of Rio Branco do Sul, focused on marginalized communities.</p>
-                                        <p class="feminine-text">We developed architectural infrastructure and basic sanitation projects, aiming to improve quality of life and promote housing dignity.</p>
-                                        <p class="feminine-text">The design and execution of these projects resulted in significant improvements to the living conditions in the served areas.</p>
-                                    </li>
-                                </ul>
-                                <div class="text-center">
-                                    <img src="midia/sobremim/2022.png" alt="Descrição da imagem 2022" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                    <img src="midia/sobremim/carla2022.jpg" alt="Descrição da imagem 2022" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                </div>
-                                
-                            </div>
-                        </div>
-
-
-                        <!-- Ano 2021 -->
-                        <div class="col-6 mb-4 d-flex">
-                            <div class="p-4 border rounded shadow-sm flex-fill">
-                                
-                                <h3 class="text-center mb-3">2021</h3>
-                                <ul class="timeline-list">
-                                    <li>
-                                        <strong>"Di Pietra Armarinhos" Project</strong>
-                                        <p class="feminine-text">This project marked the beginning of my interest in programming and web development. I developed a wholesale website designed to streamline the quoting process, allowing customers to place orders directly with the company in an intuitive and efficient way. The project included dynamic form integration and was tailored to the client's specific needs, reinforcing my commitment to web accessibility and functionality.</p>
-                                    </li>
-                                </ul>
-                                <div class="text-center">
-                                    <img src="midia/sobremim/2021.png" alt="" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                    <img src="midia/sobremim/dipietra2021.jpg" alt="" class="img-fluid mb-3 rounded" style="height: 200px; object-fit: cover;">
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 timeline-card">
+                <h3 class="text-center mb-3 year-title">2026</h3>
+                <ul class="timeline-list">
+                    <li>
+                        <strong>Swift Student Challenge</strong>
+                        <p>Developed an innovative app playground using Swift and computer vision.</p>
+                    </li>
+                    <li>
+                        <strong>Director of Communication</strong>
+                        <p>Managing digital presence and visual identity for the Academic Center.</p>
+                    </li>
+                </ul>
+                <div class="timeline-media">
+                    <video src="midia/sobremim/shaide.MOV" controls muted loop playsinline class="rounded shadow-sm w-100"></video>
                 </div>
-            </section>
+            </div>
+        </div>
 
+        <div class="col-md-6 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 timeline-card">
+                <h3 class="text-center mb-3 year-title">2025</h3>
+                <ul class="timeline-list">
+                    <li><strong>Apple Developer Academy</strong><p>Focus on iOS Development and Human-Centered Design.</p></li>
+                    <li><strong>Dean's List Recognition</strong><p>Awarded for outstanding academic performance at PUCPR.</p></li>
+                </ul>
+                <div class="timeline-media-grid">
+                    <img src="midia/sobremim/academy2025.jpg" alt="Academy">
+                    <img src="midia/sobremim/deanslist.jpg" alt="Dean's List">
+                </div>
+            </div>
+        </div>
 
-<hr>
-<section id="habilidades" class="container my-5">
+        <div class="col-md-6 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 timeline-card">
+                <h3 class="text-center mb-3 year-title">2024</h3>
+                <ul class="timeline-list">
+                    <li><strong>Information Systems at PUCPR</strong><p>Transitioning from design to technical engineering.</p></li>
+                    <li><strong>Python Automation</strong><p>Automated email systems and dynamic PDF generators.</p></li>
+                </ul>
+                <div class="timeline-media-grid">
+                    <img src="midia/sobremim/2024.png" alt="PUCPR">
+                    <img src="midia/btksolutions/preview.png" alt="Automation">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="p-4 border rounded shadow-sm h-100 timeline-card">
+                <h3 class="text-center mb-3 year-title">2023</h3>
+                <ul class="timeline-list">
+                    <li><strong>Architectural Projects</strong><p>Professional interior design and functional architecture.</p></li>
+                </ul>
+                <div class="timeline-media-grid">
+                    <img src="midia/sobremim/2023.png" alt="Architecture">
+                    <img src="midia/eu.jpg" alt="Work">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <hr class="feminine-divider-light">
+
+        <section id="habilidades" class="container my-5">
     <div class="row">
         <div class="col-12">
             <h2 class="feminine-title text-center mb-5">Professional Skills</h2>
@@ -277,19 +148,42 @@
             <span class="skill-item">CoreML & Vision</span>
             <span class="skill-item">ARKit & HealthKit</span>
             <span class="skill-item">CoreData & SwiftData</span>
-            <span class="skill-item">SpriteKit</span>
-            <span class="skill-item">AVFoundation</span>
+            <span class="skill-item">SpriteKit & AVFoundation</span>
+            <span class="skill-item">MVVM / MVC / Design Patterns</span>
         </div>
     </div>
 
     <div class="skill-category mb-4">
-        <h3 class="feminine-subtitle"><i class="fas fa-layer-group"></i> Architecture & Workflow</h3>
+        <h3 class="feminine-subtitle"><i class="fas fa-code"></i> Programming & Automation</h3>
         <div class="skills-container">
-            <span class="skill-item">MVVM / MVC / MVMC</span>
-            <span class="skill-item">Design Patterns</span>
-            <span class="skill-item">Agile & CBL (Challenge Based Learning)</span>
-            <span class="skill-item">Git & Xcode</span>
+            <span class="skill-item">Python</span>
+            <span class="skill-item">Java</span>
+            <span class="skill-item">MySQL / SQL</span>
             <span class="skill-item">OOP (Object-Oriented Programming)</span>
+            <span class="skill-item">Python Automation (PDF & Email)</span>
+            <span class="skill-item">VBA</span>
+        </div>
+    </div>
+
+    <div class="skill-category mb-4">
+        <h3 class="feminine-subtitle"><i class="fas fa-paint-brush"></i> Web & Design</h3>
+        <div class="skills-container">
+            <span class="skill-item">HTML5 & CSS3</span>
+            <span class="skill-item">JavaScript (Basic)</span>
+            <span class="skill-item">UI/UX Design</span>
+            <span class="skill-item">Figma</span>
+            <span class="skill-item">Game & Narrative Design</span>
+        </div>
+    </div>
+
+    <div class="skill-category mb-4">
+        <h3 class="feminine-subtitle"><i class="fas fa-chart-line"></i> Data & Tools</h3>
+        <div class="skills-container">
+            <span class="skill-item">Power BI</span>
+            <span class="skill-item">Power Query</span>
+            <span class="skill-item">Git & Xcode</span>
+            <span class="skill-item">Agile & CBL Methodologies</span>
+            <span class="skill-item">Microsoft Office Certified</span>
         </div>
     </div>
 
@@ -304,15 +198,6 @@
     </div>
 
     <div class="skill-category mb-4">
-        <h3 class="feminine-subtitle"><i class="fas fa-briefcase"></i> Tools & Productivity</h3>
-        <div class="skills-container">
-            <span class="skill-item">Microsoft Office Certified</span>
-            <span class="skill-item">UI/UX Design Concepts</span>
-            <span class="skill-item">Figma</span>
-        </div>
-    </div>
-
-    <div class="skill-category mb-4">
         <h3 class="feminine-subtitle"><i class="fas fa-language"></i> Languages</h3>
         <div class="skills-container">
             <span class="skill-item">English <small>(Advanced - TOEFL)</small></span>
@@ -321,9 +206,6 @@
         </div>
     </div>
 </section>
-
-
-
+    </main>
 </body>
-
 </html>
