@@ -5,6 +5,29 @@ function setImageSrc(src) {
 
 const images = [
 
+    'midia/boost/boost1.png',
+    'midia/boost/boost2.png',
+    'midia/boost/boost3.png',
+
+    'midia/grip/grip1.png',
+    'midia/grip/grip2.png',
+    'midia/grip/grip3.png',
+    'midia/grip/grip4.png',
+    'midia/grip/grip5.png',
+
+    'midia/pluma/pluma1.png',
+    'midia/pluma/pluma2.png',
+    'midia/pluma/pluma3.png',
+    'midia/pluma/pluma4.png',
+
+    'midia/chatlove/chatlove1.png',
+    'midia/chatlove/chatlove2.png',
+    'midia/chatlove/chatlove3.png',
+
+    'midia/kuruxu/kuruxu1.png',
+    'midia/kuruxu/kuruxu2.png',
+    'midia/kuruxu/kuruxu3.png',
+
     'midia/dipietra/1.png',
     'midia/dipietra/2.png',
     'midia/dipietra/3.png',

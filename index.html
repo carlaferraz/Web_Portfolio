@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Carla Araujo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Portfolio | Carla Araujo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
-    <header class="background-draw py-5">
+    <header class="background-draw">
         <div class="container text-center content-box">
-            <div class="profile-data mb-4">
+            <div class="profile-data">
                 <div class="profile-pic mb-3">
-                    <img src="midia/carla.png" alt="Carla Araujo" class="rounded-circle" width="150">
+                    <img src="midia/carla.png" alt="Carla Araujo" class="rounded-circle" width="130">
                 </div>
                 <h2 class="name">Carla Ferraz de Araujo</h2>
-                
-                <div class="my-3">
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/carlacarlinhe/" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/carlaferrazdearaujo/" target="_blank" class="me-3"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/carlaferraz" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
+                <div class="social-links mb-3">
+                    <a href="https://www.instagram.com/carlacarlinhe/" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/carlaferrazdearaujo/" target="_blank" class="me-3"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/carlaferraz" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
-                
-                <div class="profile-info mb-4">
-                    
-                    <h4 class="profile-info-description">PUCPR BSI</h4>
-                </div>
-                <div class="profile__buttons">
-                    <a href="midia/CV_Carla_Araujo_2024.pdf" class="cv-button" download>Meu Currículo <i class="fas fa-download"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="feminine-outline-button">
+                <h4 class="profile-info-description">Information Systems | PUCPR</h4>
+                <div class="profile__buttons mt-3">
+                    <a href="midia/CV_Carla_Araujo_2024.pdf" class="cv-button" download>My Resume <i class="fas fa-download"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=51123456789" target="_blank" class="feminine-outline-button">
                         <i class="fab fa-whatsapp"></i>
-                        
                     </a>
                 </div>
             </div>
@@ -47,60 +38,260 @@
     </header>
 
     <main class="container my-5">
-        
         <section class="filters mb-5">
             <ul class="nav nav-tabs justify-content-center">
-                <li class="nav-item">
-                    <a href="index.html#projects"><button class="nav-link active" id="projects">Projetos</button></a>
-                    
-                </li>
-                <li class="nav-item">
-                    <a href="design.html#design"><button class="nav-link" id="design">Design</button></a>
-                    
-                </li>
-                <li class="nav-item">
-                    <a href="sobremim.html#about-me"><button class="nav-link" id="about-me">Sobre Mim</button></a>
-                    
-                </li>
+                <li class="nav-item"><a class="nav-link active" href="index.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="design.html">Design</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobremim.html">About Me</a></li>
             </ul>
         </section>
 
+        <img src="midia/banner-pro.png" alt="Portfolio Banner" class="full-width-image">
 
-        <div class="">
-            <img src="midia/banner-pro.png" alt="Banner" class="full-width-image">
-        </div>
-        <div class="row my-5">
-            <div class="col-md-6 feminine-section">
-                <h2 class="feminine-title">ÍNDICE</h2>
-                <div class="index-container">
-                    <ol class="index-list">
-                        <a href="#dipietra" class="index"><li>Site Di Pietra Armarinhos</li></a>
-                        <a href="#catcatch" class="index"><li>Cat Catch Game</li></a>
-                        <a href="#group" class="index"><li>Automação de Email - Casa do Escritório</li></a>
-                        <a href="#btk" class="index"><li>Automação de Orçamentos em PDF - BTK Solutions</li></a>
-                    </ol>
+        <section class="row my-5">
+            <div class="col-md-12 feminine-section">
+                <h2 class="feminine-title">INDEX</h2>
+                <div class="index-container mt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="feminine-subtitle"><i class="fab fa-apple"></i> iOS Development</h3>
+                            <ol class="index-list">
+                                <a href="#boost" class="index"><li>Boost (Loong) - Fitness</li></a>
+                                <a href="#grip" class="index"><li>Grip - Pole Dance Tracker</li></a>
+                                <a href="#pluma" class="index"><li>Pluma - AI Narrative</li></a>
+                                <a href="#chatlove" class="index"><li>ChatLove - AI Dating Sim</li></a>
+                                <a href="#kuruxu" class="index"><li>Kuruxu - Indigenous AR</li></a>
+                            </ol>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="feminine-subtitle"><i class="fas fa-code"></i> Scripting & Web</h3>
+                            <ol class="index-list">
+                                <a href="#dipietra" class="index"><li>Di Pietra E-commerce</li></a>
+                                <a href="#catcatch" class="index"><li>Cat Catch Game</li></a>
+                                <a href="#group" class="index"><li>Email Automation</li></a>
+                                <a href="#btk" class="index"><li>PDF Budget Automation</li></a>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>  
-        </div>
+        </section>
 
-        <!--==========================DIVISOR===============================-->
         <div class="feminine-divider"></div>
 
-        <div>
-            <section id="projects">
+        <section id="projects">
 
-    
+            <!--BOOST-->
+
+            <div class="row project-row align-items-center">
+                    <div class="col-md-6 feminine-section">
+            <h2 class="feminine-title" id="boost">BOOST (LOONG)</h2>
+            <h3 class="feminine-subtitle">iOS DEVELOPMENT | HEALTH & FITNESS</h3>
+            <p class="feminine-text">
+                Developed at the Apple Developer Academy, our team sought to deliver value to adults who seek sports as a way to improve their health and lives but lack the motivation to do so. Loong is a guide app that introduces running to sedentary adults as a way to improve their quality of life. Through an 8-week training plan, we provide motivation and engagement for sports, allowing for gradual and constant progress.
+            </p>
+            
+            <div class="my-3">
+                <h3 class="feminine-subtitle">Technologies Used:</h3>
+                <ul class="feminine-languages">
+                    <li class="feminine-language-item"><i class="fab fa-swift"></i> Swift</li>
+                    <li class="feminine-language-item"><i class="fas fa-heartbeat"></i> HealthKit</li>
+                    <li class="feminine-language-item"><i class="fas fa-mobile-alt"></i> UIKit</li>
+                </ul>
+            </div>
+
+            <div class="my-5">
+                <a href="https://apps.apple.com/br/app/boost-running/id6747902328" target="_blank" class="feminine-button">App Store</a>
+            </div>
+        </div>
+
+        <div class="col-md-6 feminine-section">
+            <video src="midia/boost/Loong.mp4" controls style="max-height: 80vh; width: 100%; border-radius: 15px;"></video>
+            <div class="mobile-gallery-grid">
+                <img src="midia/boost/boost1.png" alt="Screen 1" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#imageModal" 
+                    onclick="openModal('midia/boost/boost1.png')">
+                    
+                <img src="midia/boost/boost2.png" alt="Screen 2" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#imageModal" 
+                    onclick="openModal('midia/boost/boost2.png')">
+                    
+                <img src="midia/boost/boost3.png" alt="Screen 3" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#imageModal" 
+                    onclick="openModal('midia/boost/boost3.png')">
+            </div>
+        </div>
+    </div>
+
+            <div class="feminine-divider"></div>
+
+            <!--GRIP-->
+<div class="row my-5 align-items-center">
+    <div class="col-md-6 feminine-section order-md-2">
+        <h2 class="feminine-title" id="grip">GRIP</h2>
+        <h3 class="feminine-subtitle">iOS DEVELOPMENT | SWIFT DATA</h3>
+        <p class="feminine-text">
+            Tracking the progress of students in Pole Dance can be a complex process. Each person has their own pace, specific difficulties, and unique achievements... and organizing all of this in a clear and practical way is not always simple. With Grip, this changes. Developed for Pole Dance instructors, the app makes progression tracking much more intuitive and visual.
+        </p>
+        
+        <div class="my-3">
+            <h3 class="feminine-subtitle">Technologies Used:</h3>
+            <ul class="feminine-languages">
+                <li class="feminine-language-item"><i class="fab fa-swift"></i> SwiftUI</li>
+                <li class="feminine-language-item"><i class="fas fa-database"></i> SwiftData</li>
+                <li class="feminine-language-item"><i class="fas fa-file-pdf"></i> PDFKit</li>
+            </ul>
+        </div>
+
+        <div class="my-5">
+            <a href="https://apps.apple.com/br/app/grip-pole-dance/id6751820798" target="_blank" class="feminine-button">App Store</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 feminine-section order-md-1">
+        <video src="midia/grip/grip.mp4" controls class="project-video-ios" style="max-height: 80vh; width: 100%; border-radius: 15px;"></video>
+        <div class="mobile-gallery-grid" style="align-items: center;">
+            <a href="#">
+                <img src="midia/grip/grip1.png" alt="Screenshot 1" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/grip/grip1.png')" style="max-width: 30%;">
+                <img src="midia/grip/grip2.png" alt="Screenshot 2" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/grip/grip2.png')" style="max-width: 30%;">
+                <img src="midia/grip/grip3.png" alt="Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/grip/grip3.png')" style="max-width: 30%;">
+                <img src="midia/grip/grip4.png" alt="Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/grip/grip4.png')" style="max-width: 30%;">
+                <img src="midia/grip/grip5.png" alt="Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/grip/grip5.png')" style="max-width: 30%;">
+            </a>
+        </div>
+    </div>
+</div>
+
+            <div class="feminine-divider"></div>
+
+            <!--PLUMA-->
+<div class="row my-5 align-items-center">
+    <div class="col-md-6 feminine-section">
+        <h2 class="feminine-title" id="pluma">PLUMA 🪶</h2>
+        <h3 class="feminine-subtitle">AI & EDUCATION | UIKIT</h3>
+        <p class="feminine-text">
+            Pluma is an interactive app developed at the Apple Developer Academy PUCPR where the user and AI build a narrative together, chapter by chapter. The idea was born from a personal desire to improve my Spanish studies and explore how artificial intelligence can stimulate creative writing and language learning, transforming the process into something fun and collaborative.
+        </p>
+        
+        <div class="my-3">
+            <h3 class="feminine-subtitle">Technologies Used:</h3>
+            <ul class="feminine-languages">
+                <li class="feminine-language-item"><i class="fab fa-swift"></i> UIKit</li>
+                <li class="feminine-language-item"><i class="fas fa-brain"></i> Foundation Models</li>
+                <li class="feminine-language-item"><i class="fas fa-wave-square"></i> Combine</li>
+                <li class="feminine-language-item"><i class="fas fa-play-circle"></i> AVFoundation</li>
+            </ul>
+        </div>
+
+        <div class="my-5">
+            <a href="https://testflight.apple.com/join/HDb7Thbb" target="_blank" class="feminine-button">TestFlight</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 feminine-section">
+        <video src="midia/pluma/pluma.mp4" controls class="project-video-ios" style="max-height: 80vh; width: 100%; border-radius: 15px;"></video>
+        <div class="mobile-gallery-grid" style="align-items: center;">
+            <a href="#">
+                <img src="midia/pluma/pluma1.png" alt="Pluma Screenshot 1" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/pluma/pluma1.png')" style="max-width: 30%;">
+                <img src="midia/pluma/pluma2.png" alt="Pluma Screenshot 2" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/pluma/pluma2.png')" style="max-width: 30%;">
+                <img src="midia/pluma/pluma3.png" alt="Pluma Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/pluma/pluma3.png')" style="max-width: 30%;">
+                <img src="midia/pluma/pluma4.png" alt="Pluma Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/pluma/pluma4.png')" style="max-width: 30%;">
+            </a>
+        </div>
+    </div>
+</div>
+
+            <div class="feminine-divider"></div>
+
+            <!--CHATLOVE-->
+<div class="row my-5 align-items-center">
+    <div class="col-md-6 feminine-content order-md-2">
+        <h2 class="feminine-title" id="chatlove">CHATLOVE ❤️‍🔥</h2>
+        <h3 class="feminine-subtitle">AI DATING SIMULATOR | OPENAI API</h3>
+        <p class="feminine-text">
+            What if ChatGPT suddenly became obsessed with you? That is the premise of <strong>ChatLOVE</strong>. Born from a joke about how talking to an AI can sometimes feel like talking to a partner, I developed this dating simulator where the chatbot becomes dangerously infatuated with the user.
+        </p>
+        
+        <div class="my-3">
+            <h3 class="feminine-subtitle">Technologies Used:</h3>
+            <ul class="feminine-languages">
+                <li class="feminine-language-item"><i class="fas fa-robot"></i> OpenAI API</li>
+                <li class="feminine-language-item"><i class="fab fa-swift"></i> SwiftUI</li>
+                <li class="feminine-language-item"><i class="fas fa-play-circle"></i> AVFoundation</li>
+                <li class="feminine-language-item"><i class="fas fa-bell"></i> Local Notifications</li>
+            </ul>
+        </div>
+
+        <div class="my-5">
+            <a href="https://apps.apple.com/br/app/chatlove/id6749601893" target="_blank" class="feminine-button">App Store</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 text-center order-md-1">
+        <video src="midia/chatlove/chatlove.mp4" controls muted loop playsinline class="project-video-ios" style="max-height: 80vh; width: 100%; border-radius: 15px;"></video>
+        <div class="mobile-gallery-grid" style="align-items: center;">
+            <a href="#">
+                <img src="midia/chatlove/chatlove1.png" alt="ChatLove Screenshot 1" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/chatlove/chatlove1.png')" style="max-width: 30%;">
+                <img src="midia/chatlove/chatlove2.png" alt="ChatLove Screenshot 2" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/chatlove/chatlove2.png')" style="max-width: 30%;">
+                <img src="midia/chatlove/chatlove3.png" alt="ChatLove Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/chatlove/chatlove3.png')" style="max-width: 30%;">
+            </a>
+        </div>
+    </div>
+</div>
+
+            <div class="feminine-divider"></div>
+
+            <!--KURUXU-->
+<div class="row my-5 align-items-center">
+    <div class="col-md-6 feminine-section">
+        <h2 class="feminine-title" id="kuruxu">KURUXU</h2>
+        <h3 class="feminine-subtitle">AUGMENTED REALITY | EDTECH</h3>
+        <p class="feminine-text">
+            Kuruxu is an educational app that integrates Augmented Reality (AR) as a powerful tool for teaching indigenous astronomy to children. The project was designed to evoke the feeling of geolocated astronomical observation, making the user feel as if they are holding a "piece of the sky" in their hands.
+        </p>
+        
+        <div class="my-3">
+            <h3 class="feminine-subtitle">Technologies Used:</h3>
+            <ul class="feminine-languages">
+                <li class="feminine-language-item"><i class="fas fa-vr-cardboard"></i> ARKit</li>
+                <li class="feminine-language-item"><i class="fas fa-cube"></i> SceneKit</li>
+                <li class="feminine-language-item"><i class="fab fa-swift"></i> SwiftUI</li>
+                <li class="feminine-language-item"><i class="fas fa-lightbulb"></i> TipKit</li>
+            </ul>
+        </div>
+
+        <div class="my-5">
+            <a href="https://testflight.apple.com/join/4RMejPqN" target="_blank" class="feminine-button">TestFlight</a>
+        </div>
+    </div>
+
+    <div class="col-md-6 text-center">
+        <video src="midia/kuruxu/kuruxu.mp4" controls muted loop playsinline class="project-video-ios" style="max-height: 80vh; width: 100%; border-radius: 15px;"></video>
+        <div class="mobile-gallery-grid" style="align-items: center;">
+            <a href="#">
+                <img src="midia/kuruxu/kuruxu1.png" alt="Kuruxu Screenshot 1" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/kuruxu/kuruxu1.png')" style="max-width: 30%;">
+                <img src="midia/kuruxu/kuruxu2.png" alt="Kuruxu Screenshot 2" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/kuruxu/kuruxu2.png')" style="max-width: 30%;">
+                <img src="midia/kuruxu/kuruxu3.png" alt="Kuruxu Screenshot 3" class="img-fluid me-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/kuruxu/kuruxu3.png')" style="max-width: 30%;">
+            </a>
+        </div>
+    </div>
+</div>
+
+            <div class="feminine-divider"></div>
                 <!--====================dipietra======================--> 
                 <div class="row my-5">
                     <div class="col-md-6 feminine-section">
                         <h2 class="feminine-title" id="dipietra">SITE DI PIETRA ARMARINHOS</h2>
                         <h3 class="feminine-subtitle">WEB DEVELOPMENT</h3>
                         <p class="feminine-text">
-                            Desenvolvi o site Di Pietra Armarinhos, voltado para a venda de produtos por atacado, onde os clientes podem solicitar orçamentos através de um formulário. Em vez de realizar compras diretamente, os usuários escolhem os itens desejados e enviam suas solicitações para avaliação. A plataforma é projetada para apresentar os produtos de forma clara e acessível, facilitando a navegação. Essa solução não apenas simplifica o processo de compra, mas também melhora a comunicação entre a empresa e os clientes. O site contribui para uma experiência mais eficiente e organizada na aquisição de produtos em grandes quantidades.
+                            I developed the Di Pietra Armarinhos website, focused on wholesale sales, where customers can request quotes through an integrated form. Instead of making direct purchases, users select the desired items and submit their requests for evaluation. The platform is designed to present products clearly and accessibly, ensuring intuitive navigation. This solution not only simplifies the purchasing process but also enhances communication between the company and its clients. The website contributes to a more efficient and organized experience for acquiring products in large quantities.
                         </p>
                         
                         <div class="my-3">
-                            <h3 class="feminine-subtitle">Tecnologias Utilizadas:</h3>
+                            <h3 class="feminine-subtitle">Technologies Used:</h3>
                             <ul class="feminine-languages">
                                 <li class="feminine-language-item"><i class="fab fa-html5"></i> HTML</li>
                                 <li class="feminine-language-item"><i class="fab fa-css3-alt"></i> CSS</li>
@@ -112,75 +303,41 @@
                         </div>
 
                         <div class="my-5">
-                            <a href="https://dipietraarmarinhos.com.br/" target="_blank" class="feminine-button">Ver site ao vivo</a>
-                            <a href="#" class="feminine-outline-button" data-bs-toggle="collapse" data-bs-target="#more-info" aria-expanded="false" aria-controls="more-info">Mais Informações</a>
-                            <div id="more-info" class="collapse mt-3">
-                                <h3 class="feminine-subtitle">Descrição do Projeto de Automação de Envio de E-mails Automáticos</h3>
-                                <p class="feminine-text">
-                                    Neste projeto, desenvolvi um site para a Di Pietra Armarinhos, focado na venda de produtos por atacado, que apresenta um design moderno e funcional.
-                                </p>
-                                <h3 class="feminine-subtitle">Contexto e Desafio:</h3>
-                                <p class="feminine-text">
-                                    O principal desafio foi criar uma plataforma que não apenas exibisse os produtos, mas que também facilitasse o processo de pedidos em um modelo de venda por atacado.
-                                </p>
-                                <h3 class="feminine-subtitle">Solução Implementada:</h3>
-                                <p class="feminine-text">
-                                    Utilizando HTML, CSS e JavaScript, construí um layout responsivo que destaca os produtos e suas categorias.
-                                </p>
-                                <h3 class="feminine-subtitle">Funcionalidade:</h3>
-                                <p class="feminine-text">
-                                    Além da apresentação dos produtos, o site possui um formulário de contato que os clientes podem utilizar para enviar suas solicitações de orçamento.
-                                </p>
-                                <h3 class="feminine-subtitle">Resultados:</h3>
-                                <p class="feminine-text">
-                                    Com o novo site, a Di Pietra Armarinhos conseguiu melhorar sua presença online e otimizar o processo de pedidos.
-                                </p>
-                            </div>
+                            <a href="https://dipietraarmarinhos.com.br/" target="_blank" class="feminine-button">Website</a>
                         </div>
                     </div>
 
                     <div class="col-md-6 feminine-section">
                         <video src="midia/dipietra/dpietra.mp4" controls style="max-height: 80vh; width: 100%; border-radius: 15px;"></video>
-                        <div class="mt-4 d-flex flex-wrap" style="align-items: center;">
-                            <a href="#">
-                                <img src="midia/dipietra/1.png" alt="" class="img-fluid me-2"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/1.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/2.png" alt="" class="img-fluid me-2"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/2.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/3.png" alt="" class="img-fluid me-2"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/3.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/4.png" alt="" class="img-fluid me-2" " data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/4.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/5.png" alt="" class="img-fluid"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/5.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/6.png" alt="" class="img-fluid"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/6.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/7.png" alt="" class="img-fluid"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/7.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/8.png" alt="" class="img-fluid"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/8.png')" style="max-width: 30%;">
-                                <img src="midia/dipietra/9.png" alt="" class="img-fluid"" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/9.png')" style="max-width: 30%;">
-                            </a>
-                        </div>
+                            <div class="project-gallery-grid">
+                                <img src="midia/dipietra/1.png" alt="Screenshot 1" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/1.png')">
+                                <img src="midia/dipietra/2.png" alt="Screenshot 2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/2.png')">
+                                <img src="midia/dipietra/3.png" alt="Screenshot 3" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/3.png')">
+                                <img src="midia/dipietra/4.png" alt="Screenshot 4" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/4.png')">
+                                <img src="midia/dipietra/5.png" alt="Screenshot 5" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/5.png')">
+                                <img src="midia/dipietra/6.png" alt="Screenshot 6" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/6.png')">
+                                <img src="midia/dipietra/7.png" alt="Screenshot 7" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/7.png')">
+                                <img src="midia/dipietra/8.png" alt="Screenshot 8" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/8.png')">
+                                <img src="midia/dipietra/9.png" alt="Screenshot 9" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/dipietra/9.png')">
+                            </div>      
                     </div>
                 </div>
 
 
-                    
-                    
-
-
-
-                <!--==========================DIVISOR===============================-->
-                <div class="feminine-divider"></div>
-
-
-
-                        <!--====================CAT CATCH======================-->        
-                <div class="row mt-5">
+            <div class="feminine-divider"></div>
+<!--CATCATCH-->
+<div class="row mt-5">
                     <div class="col-md-6  feminine-section">
                         <video src="midia/catcatch/catcatch.mp4" controls style="max-height: 85%; border-radius: 15px;"></video>
                     </div>
                     <div class="col-md-6 feminine-content">
                         <h2 class="feminine-title" style="margin-top: 30px;" id="catcatch">CAT CATCH</h2>
                         <h3 class="feminine-subtitle">GAME DESIGN AND PROGRAMMING</h3>
-                        <p class="feminine-text"><span>"Cat Catch"</span> é uma aventura divertida onde você assume o controle de um gato ágil e faminto! Mergulhe em um mundo colorido e recheado de desafios, onde seu objetivo é devorar o máximo de ratos possível, enquanto desvia de poções venenosas traiçoeiras que ameaçam sua missão! Prepare-se para uma corrida frenética: mova-se para a esquerda e para a direita, colete pontos e mostre suas habilidades de sobrevivência.</p>
+                        <p class="feminine-text"><span>"Cat Catch"</span> is a fun adventure where you take control of an agile and hungry cat! Dive into a colorful world filled with challenges, where your goal is to devour as many mice as possible while dodging treacherous poisonous potions that threaten your mission. Get ready for a frantic race: move left and right, collect points, and show off your survival skills!</p>
 
 
                         <div>
-                            <h3 class="feminine-subtitle">Tecnologias Utilizadas:</h3>
+                            <h3 class="feminine-subtitle">Technologies Used:</h3>
                             <ul class="feminine-languages">
                                 <li class="feminine-language-item"><i class="fab fa-python"></i> Python</span></li>
                                 <li class="feminine-language-item"><i class="fas fa-desktop"></i> PyGame</span></li>
@@ -192,40 +349,8 @@
 
 
                         <div class="my-5">
-                            <a href="midia/catcatch/catcatch.exe" class="feminine-button" download>Instalar Jogo</a>
-                            <a href="https://github.com/carlaferraz/Cat-Catch" target="_blank" class="feminine-outline-button">Código Fonte no GitHub</a>
-                            <a href="#" class="feminine-outline-button" data-bs-toggle="collapse" data-bs-target="#more-info" aria-expanded="false" aria-controls="more-info">Mais Informações</a>
-                            <div id="more-info" class="collapse mt-3">
-                                <div>
-                                    <div>
-                                        <h3 class="feminine-subtitle">Animação dos Personagens:</h3>
-                                        <p class="feminine-text">Como o PyGame não aceita vídeos para a animação, foi-se utilizado o recurso de lista de imagens que trocam de acordo com o tempo transcorrido, a partir de função condicional descrita a seguir:</p>
-                                        <img src="midia/catcatch/animacao-personagens.png" alt="" class="feminine-img" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/catcatch/animacao-personagens.png')">
-                                    </div>
-
-                                    <div>
-                                        <h3 class="feminine-subtitle">Movimentação do Gato:</h3>
-                                        <p class="feminine-text">A partir da lista de imagens carregada, utilizou-se uma função própria do PyGame para contornar em formato retangular a área aproximada e a partir disso, definir o espaço ocupado pelo personagem dentro do jogo. Com isso, foi possível definir uma função move que a partir de estrutura condicional altera o movimento do gato a partir da tecla direita ou esquerda pressionada, alterando sua posição para |5| em relação ao eixo x.</p>
-                                        <img src="midia/catcatch/movimentacao-gato.png" alt="" class="feminine-img" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/catcatch/movimentacao-gato.png')">
-                                    </div>
-
-                                    <div>
-                                        <h3 class="feminine-subtitle">Detecção de Colisão entre Jogador e Rato:</h3>
-                                        <p class="feminine-text">Uma vez que o jogador "come" o rato, é feito uma condicional com o SCORE, adicionando em 10 a cada colisão ocorrida. Além disso, foi adicionado um efeito sono para melhor experiência.</p>
-                                        <img src="midia/catcatch/colisao-gato-rato.png" alt="" class="feminine-img" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/catcatch/colisao-gato-rato.png')">
-                                        <img src="midia/catcatch/score-rato.png" alt="" class="feminine-img" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/catcatch/score-rato.png')">
-                                    </div>
-
-                                    <div>
-                                        <h3 class="feminine-subtitle">Detecção de Colisão entre Jogador e Poção:</h3>
-                                        <p class="feminine-text">Assim que o gato encosta na poção envenenada, há um efeito sonoro de dor, e após meio segundo, aparece a tela de "Game Over", indicando o encerramento do jogo. Após dois segundos dessa tela, por meio do loop for, o jogo é encerrado e a tela do PyGame é fechada.</p>
-                                        <img src="midia/catcatch/gato-pocao.png" alt="" class="feminine-img" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/catcatch/gato-pocao.png')">
-                                    </div>
-                                </div>
-
-                                    
-                                
-                            </div>
+                            <a href="midia/catcatch/catcatch.exe" class="feminine-button" download>Install Game</a>
+                            <a href="https://github.com/carlaferraz/Cat-Catch" target="_blank" class="feminine-outline-button">GitHub</a>
                         </div>
 
                         <div class="mt-4 d-flex flex-wrap">
@@ -245,14 +370,14 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="imageModalLabel">Imagem Expandida</h5>
+             
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body text-center">
                                 <img id="expandedImage" src="" alt="" class="img-fluid">
                                 <div class="d-flex justify-content-between mt-3">
-                                    <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Anterior</button>
-                                    <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Próximo &#10095;</button>
+                                    <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Previous</button>
+                                    <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Next &#10095;</button>
                                 </div>
                             </div>
                         </div>
@@ -261,15 +386,9 @@
 
 
 
-
-
-
-                <!--==========================DIVISOR===============================-->
-                <div class="feminine-divider"></div>
-
-                        
-                <!--====================AUTOMACAO DE EMAIL======================--> 
-                <div class="container my-5">
+            <div class="feminine-divider"></div>
+<!--CASADOESCRITORIO-->
+<div class="container my-5">
                     <div class="row mb-4 mt-4">
                         <div class="col-md-6 mb-4 feminine-section">
                             <video src="midia/casadoescritorio/group.mp4" controls class="w-100" style="max-height: 100%; border-radius: 15px;"></video>
@@ -283,14 +402,14 @@
 
                         </div>
                         <div class="col-md-6 feminine-content">
-                            <h2 style="margin-top: 30px;" id="group">PROJETO ENVIO DE E-MAILS AUTOMÁTICOS - EMPRESA CASA DO ESCRITÓRIO</h2>
-                            <h3>AUTOMAÇÃO EM PYTHON</h3>
-                            <p>Desenvolvi uma aplicação em Python para automatizar o envio de e-mails, resolvendo o problema de sobrecarga do sistema da empresa ao enviar mensagens em massa. A aplicação utiliza uma base de dados de e-mails em Excel, permitindo que o usuário defina assunto, corpo do texto e anexos. Os e-mails são enviados em lotes de 10, integrando-se ao Outlook. Essa solução otimizou o processo de comunicação com os clientes, evitando quedas do sistema.
+                            <h2 style="margin-top: 30px;" id="group">AUTOMATED EMAIL SYSTEM - CASA DO ESCRITÓRIO</h2>
+                            <h3>PYTHON AUTOMATION</h3>
+                            <p>I developed a Python-based application to automate email delivery, solving a critical system overload issue caused by mass messaging. The application utilizes an Excel database, allowing users to define the subject, message body, and attachments. Emails are sent in batches of 10 through integration with Microsoft Outlook. This solution optimized the client communication process and prevented frequent system crashes.
                                 <br>
-                                <small class="text-muted">Nota: Para garantir a privacidade e seguir as diretrizes da empresa, algumas informações foram alteradas, e todos os e-mails utilizados são fictícios.</small>
+                                <small class="text-muted">Note: To ensure privacy and comply with company guidelines, certain details have been modified, and all email addresses used are fictitious.</small>
                             </p>
                             <div class="my-5">
-                                <h3>Tecnologias Utilizadas:</h3>
+                                <h3>Technologies Used:</h3>
                                 <ul class="feminine-languages">
                                     <li class="feminine-language-item"><i class="fab fa-python"></i> Python</span></li>
                                     <li class="feminine-language-item"><i class="fas fa-desktop"></i> Tkinter</span></li>
@@ -300,45 +419,8 @@
                             </div>
                             <div class="my-5">
                                 <div class="d-flex flex-wrap">
-                                    <a href="midia/casadoescritorio/email_app.exe" class="feminine-button" download>Instalar Executável</a>
-                                    <a href="https://github.com/carlaferraz/Automacao-Email" target="_blank" class="feminine-outline-button">Código no GitHub</a>
-                                    <a href="#" class="feminine-outline-button" data-bs-toggle="collapse" data-bs-target="#more-info" aria-expanded="false" aria-controls="more-info">Mais Informações</a>
-                                    <div id="more-info" class="collapse mt-3">
-                                        <div>
-                                            <h3 class="feminine-subtitle">Descrição do Projeto de Automação de Envio de E-Mails Automáticos</h3>
-                                            <p class="feminine-text">Neste projeto, desenvolvi uma solução em Python para automatizar o envio de e-mails, abordando um problema crítico: a sobrecarga do sistema da empresa ao encaminhar muitos e-mails de uma só vez.</p>
-                                            <h3 class="feminine-subtitle">Contexto e Desafio:</h3>
-                                            <p>A empresa enfrentava dificuldades significativas quando tentava enviar mensagens para uma grande lista de clientes simultaneamente, resultando em quedas frequentes do sistema. Para resolver isso, criei uma aplicação que permite gerenciar o envio de e-mails de forma mais controlada e eficiente.</p>
-                                            <h3 class="feminine-subtitle">Solução Implementada:</h3>
-                                            <p class="feminine-text">A aplicação utiliza uma base de dados de e-mails dos clientes armazenada em um arquivo Excel. A partir dessa base, desenvolvi um executável que possibilita ao usuário definir o assunto, o corpo do texto e adicionar anexos aos e-mails.</p>
-                                            <h3 class="feminine-subtitle">Funcionalidade:</h3> 
-                                            <p class="feminine-text">Os e-mails são enviados em lotes de 10, conforme a lista do Excel, utilizando a integração com o Outlook. Essa abordagem não apenas preserva a integridade do sistema, mas também melhora a experiência do usuário ao facilitar o envio de mensagens em massa.</p>
-                                            <h3 class="feminine-subtitle">Resultados:</h3> 
-                                            <p class="feminine-text">Com essa automação, a empresa conseguiu otimizar seu processo de comunicação com os clientes, garantindo que as mensagens fossem enviadas de forma eficiente, sem sobrecarregar o sistema.</p>
-                                        </div>
-                                        <div>
-                                            <h3>Relacionando O Campo de Informações do Outlook:</h3>
-                                            <p>Por meio da aplicação win32com.client é possível relacionar os campos do outlook para assim integrar à aplicação desejada</p>
-                                            <img src="midia/casadoescritorio/win32.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/casadoescritorio/win32.png')">
-                                        </div>
-                                        <div>
-                                            <h3>Interface Gráfica com Tkinter:</h3>
-                                            <p>A interface do aplicativo foi desenvolvida utilizando a biblioteca <code>customtkinter</code>, que proporciona uma experiência de usuário moderna e intuitiva. A estrutura do layout é organizada em grids, permitindo que os usuários insiram informações essenciais como o assunto do e-mail e o corpo da mensagem.</p>
-                                            <img src="midia/casadoescritorio/tkinter.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/casadoescritorio/tkinter.png')">
-                                        </div>
-                                        <div>
-                                            <h3>Manipulação de Anexos:</h3>
-                                            <p>Os usuários têm a opção de anexar arquivos diretamente ao e-mail. Isso é facilitado por um botão que aciona um seletor de arquivos, permitindo a escolha de múltiplos arquivos. O caminho dos arquivos anexados é exibido em um campo de texto.</p>
-                                            <img src="midia/casadoescritorio/anexos.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/casadoescritorio/anexos.png')">
-                                        </div>
-                                        <div>
-                                            <h3>Tratamento de Erros:</h3>
-                                            <p>A aplicação possui um sistema robusto de tratamento de erros, que garante que o usuário seja informado em caso de falhas. Mensagens de erro claras e concisas são exibidas através de caixas de diálogo.</p>
-                                            <img src="midia/casadoescritorio/erro.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/casadoescritorio/erro.png')">
-                                        </div>
-                                    </div>
-                                
-                                    
+                                    <a href="midia/casadoescritorio/email_app.exe" class="feminine-button" download>Install</a>
+                                    <a href="https://github.com/carlaferraz/Automacao-Email" target="_blank" class="feminine-outline-button">GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -350,36 +432,24 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="imageModalLabel">Imagem Expandida</h5>
+                         
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body text-center">
                                 <img id="expandedImage" src="" alt="" class="img-fluid">
                                 <div class="d-flex justify-content-between mt-3">
-                                    <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Anterior</button>
-                                    <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Próximo &#10095;</button>
+                                    <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Previous</button>
+                                    <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Next &#10095;</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+            <div class="feminine-divider"></div>
 
-
-
-
-
-
-   <!--==========================DIVISOR===============================-->
-                <div mt-5>
-                    <div class="feminine-divider"></div>
-                </div>
-                
-
-
-
-                <!--====================AUTOMACAO DE PDF======================--> 
-                <div class="container my-5">
+<!--BTKSOLUTIONS-->
+<div class="container my-5">
                     <div class="row mb-4 mt-4">
                         <div class="col-md-6 mb-4 feminine-section">
                             <video src="midia/btksolutions/exe.mp4" controls class="w-100" style="max-height: 100%; border-radius: 15px;"></video>
@@ -397,12 +467,12 @@
     
                         </div>
                         <div class="col-md-6 feminine-content">
-                            <h2 style="margin-top: 30px;" id="btk">PROJETO GERAÇÃO DE ORÇAMENTOS EM PDF AUTOMÁTICOS - EMPRESA BTK SOLUTIONS</h2>
-                            <h3>AUTOMAÇÃO EM PYTHON</h3>
-                            <p>Desenvolvi uma aplicação em Python para gerar PDFs de orçamentos automaticamente, formatados de acordo com o modelo da empresa. A aplicação utiliza dados de uma tabela em Excel, permitindo que os usuários insiram informações como produtos, preços e detalhes do cliente. Com um clique, o sistema cria documentos PDF prontos para envio, economizando tempo e garantindo a padronização dos orçamentos.</p>
-                            <small class="text-muted">Nota: Para garantir a privacidade e seguir as diretrizes da empresa, algumas informações foram alteradas, e todos os dados utilizados são fictícios.</small>
+                            <h2 style="margin-top: 30px;" id="btk">AUTOMATED PDF QUOTE GENERATION - BTK SOLUTIONS</h2>
+                            <h3>PYTHON AUTOMATION</h3>
+                            <p>I developed a Python application to automatically generate quote PDFs formatted according to the company's specific templates. The application processes data from an Excel spreadsheet, allowing users to input information such as product lists, pricing, and client details. With a single click, the system generates ready-to-send PDF documents, saving time and ensuring a high standard of consistency across all quotes..</p>
+                            <small class="text-muted">Note: To ensure privacy and comply with company guidelines, certain details have been modified, and all data used in this demonstration is fictitious.</small>
                             <div class="my-5">
-                                <h3>Tecnologias Utilizadas:</h3>
+                                <h3>Technologies Used:</h3>
                                 <ul class="feminine-languages">
                                     <li class="feminine-language-item"><i class="fab fa-python"></i> Python</span></li>
                                     <li class="feminine-language-item"><i class="fas fa-desktop"></i> Tkinter</span></li>
@@ -415,85 +485,7 @@
                             <div class="my-5">
                                 <div class="d-flex flex-wrap">
                                     
-                                    <a href="https://github.com/carlaferraz/Automacao-Orcamentos-PDF" target="_blank" class="feminine-outline-button">Código no GitHub</a>
-                                    <a href="#" class="feminine-outline-button" data-bs-toggle="collapse" data-bs-target="#more-info-pdf" aria-expanded="false" aria-controls="more-info-pdf">Mais Informações</a>
-                                    <div id="more-info-pdf" class="collapse mt-3">
-                                        <div>
-                                            <h3>Descrição do Projeto de Geração Automática de PDFs de Orçamentos</h3>
-                                            <p>Neste projeto, desenvolvi uma solução em Python para gerar PDFs de orçamentos automaticamente, seguindo o modelo específico da empresa, com base em dados extraídos de uma tabela do Excel. 
-                                                <br>
-                                                <h3>Contexto e Desafio:</h3>
-                                                A empresa precisava otimizar a criação de orçamentos, que era um processo manual e demorado. O desafio era criar uma solução que não apenas automatizasse a geração de orçamentos, mas também garantisse a padronização do formato.</p>
-                                            <h3>Solução Implementada:</h3>
-                                            <p>A aplicação permite que os usuários insiram os dados necessários em um formulário e, com um clique, gera um documento PDF formatado de acordo com os padrões da empresa.</p>
-                                            <h3>Resultados:</h3>
-                                            <p>Com essa automação, a empresa conseguiu reduzir significativamente o tempo gasto na criação de orçamentos, melhorando a eficiência do processo e garantindo que todos os documentos fossem consistentes.</p>
-                                        </div>
-                                        <div>
-                                            <div>
-                                                <h3>Organizando A Tabela: </h3>
-                                                <p>O primeiro passo foi criar uma tabela no excel divida em abas de acordo com cada sessão do orçamento: Proposta, Dados Gerais, Produtos e Totais.</p>
-                                                <div class="mt-4 d-flex flex-wrap">
-                                                    <a href="#">
-                                                        <img src="midia/btksolutions/excel1.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/excel1.png')">
-                                                        <img src="midia/btksolutions/excel3.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/excel3.png')" style="margin-top: 10px;">
-                                                        <img src="midia/btksolutions/excel4.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/excel4.png')" style="margin-top: 10px;">
-                                                        <img src="midia/btksolutions/excel5.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/excel5.png')" style="margin-top: 10px;">
-                                                    </a>
-                                                </div>
-                                                
-                                            </div>
-                                            
-                    
-                                            <div>
-                                                <h3>Relacionando O Campo de Informações com o PDF</h3>
-                                                <p>Utilizou a biblioteca FPDF para criar o PDF do zero e seu design, feito com várias funções de cabeçalho, informações gerais, tabela, totais e rodapé.</p>
-                                                <div class="mt-4 d-flex flex-wrap">
-                                                    <a href="#">
-                                                        <img src="midia/btksolutions/cabeçalho.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/cabeçalho.png')">
-                                                
-                                                        <img src="midia/btksolutions/infos.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/infos.png')" style="margin-top: 10px;">
-                                                
-                                                        <img src="midia/btksolutions/tabela.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/tabela.png')" style="margin-top: 10px;">
-                                                
-                                                        <img src="midia/btksolutions/totais.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/totais.png')" style="margin-top: 10px;">
-                                                </div>
-                                                    </a>
-                                                
-                                                
-                                                
-                                            </div>
-                    
-                                            <div>
-                                                <h3>Seleção de Anexos e Local de Salvamento: </h3>
-                                                <p>Para criar o executável, utilizou-se novamente o tkinter, criando mais uma vez funções para selecionar anexos e agora selecionar em que lugar do computador quer salvar o documento. </p>
-                                                <div class="mt-4 d-flex flex-wrap">
-                                                    <a href="#"><img src="midia/btksolutions/selecaoexce.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/selecaoexce.png')"></a>
-                                                </div>
-                                                
-                                            </div>
-                    
-                                            <div>
-                                                <h3>Gerando o PDF e Tratamento de Erros: </h3>
-                                                <p>A partir da função <code>generate_pdf</code> pode-se obter o PDF ou aparecer mensagens de erros caso alguma informação esteja faltando</p>
-                                                <div class="mt-4 d-flex flex-wrap">
-                                                    <a href="#">
-                                                        <img src="midia/btksolutions/gerarpdf.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/gerarpdf.png')">
-                                                        <img src="midia/btksolutions/pdf1.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/pdf1.png')">
-                                                        <img src="midia/btksolutions/pdf2.png" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('midia/btksolutions/pdf2.png')">
-                                                    </a>
-                                                </div>
-                                                
-                                            </div>
-                    
-                                        </div>
-                                </div>
-                                   
-                
-                                    
-                               
-                
-                                
+                                    <a href="https://github.com/carlaferraz/Automacao-Orcamentos-PDF" target="_blank" class="feminine-outline-button">GitHub</a>
                             </div>
                     
                            
@@ -501,14 +493,14 @@
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="imageModalLabel">Imagem Expandida</h5>
+                             
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-center">
                                             <img id="expandedImage" src="" alt="" class="img-fluid">
                                             <div class="d-flex justify-content-between mt-3">
-                                                <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Anterior</button>
-                                                <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Próximo &#10095;</button>
+                                                <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Previous</button>
+                                                <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Next &#10095;</button>
                                             </div>
                                         </div>
                                     </div>
@@ -523,52 +515,33 @@
                 
                 
 
-
-                
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </section>
     </main>
 
+    <footer class="bg-dark text-white text-center p-4">     
+        Carla Ferraz de Araujo | Information Systems Student
+    </footer>
 
-
-
-
-
-
-
-
-
-
-    <footer class="bg-light text-center text-lg-start mt-4">     
-        <div class="text-center p-3 bg-dark text-white">
-          Carla Ferraz de Araujo | Estudante de Sistemas de Informação - PUCPR
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+  
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="expandedImage" src="" alt="" class="img-fluid">
+                <div class="d-flex justify-content-between mt-3">
+                <button class="btn btn-secondary" id="prevBtn" onclick="changeImage(-1)">&#10094; Previous</button>
+                <button class="btn btn-secondary" id="nextBtn" onclick="changeImage(1)">Next &#10095;</button>
+                </div>
+                </div>
+            </div>
         </div>
-      </footer>
-
-
-
-
+    </div>
+                
+                            
+            
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
@@ -576,6 +549,3 @@
 
 </body>
 </html>
-
-
-

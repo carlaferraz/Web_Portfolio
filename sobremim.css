@@ -1,16 +1,49 @@
-#sobre-mim {
-    background-color: #f9f9f9; /* Fundo suave */
-    padding: 30px; /* Espaçamento interno */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+/* Ajuste para as categorias de habilidades */
+.skill-category {
+    background-color: #fffafb; /* Um fundo quase branco, levemente rosado */
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px dashed #fce4ec; /* Uma borda delicada */
 }
 
-.feminine-title {
-    color: #d63384; /* Cor da fonte do título */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
+.feminine-subtitle {
+    font-size: 1.2rem;
+    color: #ad1457;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.list-unstyled li {
-    font-size: 18px; /* Tamanho da fonte das curiosidades */
-    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+/* Container das pílulas (ajuste do que fizemos antes) */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start; /* Alinhado à esquerda para leitura técnica */
+}
+
+/* Estilo de cada "pílula" individual */
+.skill-item {
+    background-color: #ffe4ab;
+    color: #333;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.skill-item small {
+    font-size: 10px;
+    opacity: 0.7;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.skill-item:hover {
+    background-color: #f06292;
+    color: white;
+    transform: scale(1.05);
 }
