@@ -1,0 +1,9 @@
+.design-page img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.design-page .img-fluid {
+  max-width: 100%;
+}
